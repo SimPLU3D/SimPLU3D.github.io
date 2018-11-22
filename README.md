@@ -1,5 +1,5 @@
-Simplu3D
-============
+![Logo simplu3D](./logo/logo.png)
+
 
 [![Build Status](https://travis-ci.org/SimPLU3D/simplu3D.svg?branch=master)](https://travis-ci.org/SimPLU3D/simplu3D)
 
