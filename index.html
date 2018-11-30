@@ -6,7 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
-  <meta name="author" content="Sidonie Christophe">
   <meta name="author" content="Mickaël Brasebin">
   <link rel="shortcut icon" type="image/x-icon" href="./logo/favicon.png" />
 
@@ -21,6 +20,7 @@
   <link href="css/simplu3D.css" rel="stylesheet">
   <link href="css/animate.css" rel="stylesheet">
   <link href="js/fancybox/jquery.fancybox.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" rel="stylesheet">
   <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
   <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
   <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
@@ -49,8 +49,8 @@
           <ul class="nav navbar-nav">
             <li><a class="languageFr" href="#accueil">Accueil</a></li>
             <li><a class="languageFr" href="#about">Principe</a></li>
-            <li><a class="languageFr" href="#installation">Utilisation</a></li>
-            <li><a class="languageFr" href="#realisation">Réalisation</a></li>
+            <li><a class="languageFr" href="#realisation">Réalisations</a></li>
+            <li><a class="languageFr" href="#installation">Installation</a></li>
             <li><a class="languageFr" href="#documentation">Documentation</a></li>
             <li><a class="languageFr" href="#contact">Contact</a></li>
             <li><a class="languageFr" href="#gallerie">Gallerie</a></li>
@@ -73,246 +73,356 @@
     </div>
   </section>
 
-  <div class="jumbotron">
+  <div class="jumbotron pad-bot5">
     <!-- LOGOS -->
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <div class="col-xs-4 col-md-1" id="logo-main"><img class="center-block" src="./logo/logo_small.png" alt="logo"></div>
+          <div class="col-xs-4 col-md-6" id="logo-main"><img class="center-block" src="./logo/logo_small.png" alt="logo"></div>
           <!--<div class="col-xs-4 col-md-3" id="IMY"><img class="center-block" src="img/logos/IMY.png"></div>-->
           <div class="col-xs-4 col-md-6" id="logo-ANR-funded"><img class="center-block" src="./logo/logo_ign.png"></div>
         </div>
       </div>
-    </div>
-</div>
-    <!-- ACTUS -->
-    <div class="container">
 
+      <div class="row pad-top35">
+        <div class="col-md-12">
+          <div class="col">
+            <div/>
 
-    </div>
-    <!-- fin container -->
+            <!-- Chapeau introductif -->
+            <div class="col-md-10">
+              <p class="languageFr"><strong>SimPLU3D est un ensemble de bibliothèques Java Open-Source qui permet de simuler des formes bâties 3D à partir de contraintes morphologiques  en optimisant une fonction numérique. Ces codes peuvent être utilisés pour questionner le rapport entre des contraintes morphologiques (par exemple issues de réglementations locales d'urbanisme) et les formes produites à l'échelle du quartier ou de l'agglomération. L'approche de SimPLU3D est générique dans le sens où il est possible de définir ses propres contraintes, fonctions d'optimisation ou types de formes.
+      <br />  Cette bibliothèque a notamment été utilisée pour modéliser des formes bâties à partir de contraintes issues de Plans Locaux d'Urbanisme (PLU) et permet de répondre à ce type de questions :
+      <ul>
+        <li>  Quelle est la quantité de logements que l'on peut bâtir sur une parcelle ?</li>
+<li>  Comment est-ce que la forme de mon quartier va évoluer si l'on change un PLU ?</li>
+        <li>     Est-ce que des bâtiments produisant une ombre trop importante sur les parcelles voisines risquent d'être construits ?</li>
+      </ul>
+        L'ensemble de ces bibliothèque est disponible dans l'<a href="https://github.com/SimPLU3D/simplu3D">organisation GitHub SimPLU3D</a> et est développé et maintenu par le laboratoire <a href="http://recherche.ign.fr/">LASTIG</a> de l'<a href="http://www.ign.fr/">Institut National de l'Information Géographique et Forestière</a>.</strong></p>
+              </strong>
+            </div>
+            <div class="col">
+              <div/>
+            </div>
+          </div>
 
-
-
-    <div class="container">
-      <div class="row">
-        <!-- Chapeau introductif -->
-        <p class="languageFr"><strong>The site is under construction !!!!</strong></p>
-    </strong> <br>
-
-
+        </div>
       </div>
       <!-- /.container -->
 
     </div>
-    <!-- /.jumbotron -->
+  </div>
 
-    <!-- section presentation -->
-    <section id="presentation" class="section appear clearfix">
-      <div class="container" style="text-align:justify;">
-        <div class="row mar-bot50">
-          <div class="col-md-offset-3 col-md-6">
-            <div class="section-header">
-              <h2 class="section-heading animated languageFr" data-animation="bounceInUp">Présentation du projet</h2>
-              <h2 class="section-heading animated languageEn" data-animation="bounceInUp">Project description</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row mar-bot50 languageFr">
-          Description du projet à insérer
-        </div>
 
+  <!-- ACTUS -->
+
+  <section id="news" class="pad-top35 section appear clearfix">
+    <div class="container" style="text-align:justify;">
+      <div class="section-header">
+        <h2 class="section-heading animated" data-animation="bounceInUp">News</h2>
       </div>
-    </section>
-
-    <!-- spacer section:mix -->
-    <section id="mix" class="section mar-top40 mar-bot40" data-stellar-background-ratio="0.8"></section>
-    <section class="section mar-top40 mar-bot40"></section>
-
-    <!-- section about -->
-    <section id="about" class="section  clearfix">
-      <div class="container" style="text-align:justify;">
-        <div class="row mar-bot50">
-          <div class="col-md-offset-3 col-md-6">
-            <div class="section-header">
-              <h2 class="section-heading animated languageFr" data-animation="bounceInUp">Principe</h2>
-              <h2 class="section-heading animated languageEn" data-animation="bounceInUp">About</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          Description du principe de fonctionnement
+      <div class="row">
+        <div class="col-md-10">
+          <p class="languageFr">Décembre 2018<strong> : Ouverture de la nouvelle page d'accueil et <a href="https://simplu3d.github.io/simplu3D-tutorial/">mise en ligne d'un tutoriel</a> </strong></p>
+          <p class="languageFr">Mars 2018<strong> : Article  <a href="https://mbrasebin.github.io/publications/2017-CEUS.pdf">3D urban data to assess local urban regulation influence</a> publié dans le journal Computer Environment and Urban System</strong></p>
+          <p class="languageFr">Février 2018<strong> : Mise en ligne de la vidéo de présentation des <a href="https://www.youtube.com/watch?v=kLP-1g_uAVob"> recherches de l'axe "Analyse de l’espace et de ses dynamiques" </a> - Séminaire d'interconnaissance de l'I-SITE Paris-Est</strong></p>
         </div>
       </div>
-    </section>
+    </div>
+    </div>
+  </section>
+  <!-- fin container -->
 
-    <!-- spacer section:styletopo -->
-    <section id="styletopo" class="section mar-top40 mar-bot40" data-stellar-background-ratio="0.8"></section>
-    <section class="section mar-top40 mar-bot40"></section>
+  <!-- /.jumbotron -->
 
-    <!-- section about -->
-    <section id="about" class="section  clearfix">
-      <div class="container" style="text-align:justify;">
-        <div class="row mar-bot50">
-          <div class="col-md-offset-3 col-md-6">
-            <div class="section-header">
-              <h2 class="section-heading animated languageFr" data-animation="bounceInUp">Principe</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          Description du principe de fonctionnement
-        </div>
-      </div>
-    </section>
+  <!-- spacer section:mix -->
+  <section id="mix" class="section mar-top40 mar-bot40" data-stellar-background-ratio="0.8"></section>
+  <section class="section mar-top40 mar-bot40"></section>
 
-    <!-- section principe -->
-    <section id="about" class="section  clearfix">
-      <div class="container" style="text-align:justify;">
-        <div class="row mar-bot50">
-          <div class="col-md-offset-3 col-md-6">
-            <div class="section-header">
-              <h2 class="section-heading animated languageFr" data-animation="bounceInUp">Installation</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          Comment installer SimPLU3D ?
-        </div>
-      </div>
-    </section>
-
-
-    <!-- section realisation -->
-    <section id="about" class="section  clearfix">
-      <div class="realisation" style="text-align:justify;">
-        <div class="row mar-bot50">
-          <div class="col-md-offset-3 col-md-6">
-            <div class="section-header">
-              <h2 class="section-heading animated languageFr" data-animation="bounceInUp">Réalisation</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          Qu'a-t-on déjà fait avec SimPLU3D ?
-        </div>
-      </div>
-    </section>
-
-
-    <!-- section realisation -->
-    <section id="about" class="section  clearfix">
-      <div class="documentation" style="text-align:justify;">
-        <div class="row mar-bot50">
-          <div class="col-md-offset-3 col-md-6">
-            <div class="section-header">
-              <h2 class="section-heading animated languageFr" data-animation="bounceInUp">Documentations</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          Articles et tutoriel pour aider à utiliser SimpPLU3D
-        </div>
-      </div>
-    </section>
-
-    <!-- section realisation -->
-    <section id="about" class="section  clearfix">
-      <div class="contact" style="text-align:justify;">
-        <div class="row mar-bot50">
-          <div class="col-md-offset-3 col-md-6">
-            <div class="section-header">
-              <h2 class="section-heading animated languageFr" data-animation="bounceInUp">Contact</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          Qui contacter et conditions d'utiliser ?
-        </div>
-      </div>
-    </section>
-
-
-
-    <!-- section gallerie -->
-    <section id="about" class="section  clearfix">
-      <div class="gallerie" style="text-align:justify;">
-        <div class="row mar-bot50">
-          <div class="col-md-offset-3 col-md-6">
-            <div class="section-header">
-              <h2 class="section-heading animated languageFr" data-animation="bounceInUp">Gallerie</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          Quelques belles images qu'on n'a pas réussi à caser
-        </div>
-      </div>
-    </section>
-
-    <!-- section remerciement -->
-    <section id="about" class="section  clearfix">
-      <div class="gallerie" style="text-align:justify;">
-        <div class="row mar-bot50">
-          <div class="col-md-offset-3 col-md-6">
-            <div class="section-header">
-              <h2 class="section-heading animated languageFr" data-animation="bounceInUp">Remerciements</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          Financeurs et contributeurs
-        </div>
-      </div>
-    </section>
-
-
-    <section class="section mar-top50 mar-bot50"></section>
-
-    <!-- contact -->
-    <section id="contact" class="section appear clearfix">
+  <!-- section about -->
+  <section id="about" class="section  clearfix">
+    <div class="container" style="text-align:justify;">
       <div class="row mar-bot50">
         <div class="col-md-offset-3 col-md-6">
           <div class="section-header">
-            <h2 class="section-heading animated languageFr" data-animation="bounceInUp">Contactez nous</h2>
-            <h2 class="section-heading animated languageEn" data-animation="bounceInUp">Contact us</h2>
-
-
-            <p class="languageFr">mickael.brasebin@ign.fr</p>
-            <p class="languageEn">mickael.brasebin@ign.fr</p>
+            <h2 class="section-heading animated languageFr" data-animation="bounceInUp">Principe</h2>
+            <h2 class="section-heading animated languageEn" data-animation="bounceInUp">About</h2>
           </div>
         </div>
       </div>
-    </section>
-    <a href="#header" class="scrollup"><i class="fa fa-chevron-up"></i></a>
+    </div>
+    <div class="container" style="text-align:justify;">
+      <div class="row">
 
-    <section id="footer" class="section footer">
-      <div class="container">
-        <div class="row align-center copyright">
-          <div class="col-sm-12">
-            <p>Copyright &copy; 2014 - 2019 IGN - Institut National de l'Information Géographique et Forestière</p>
+        <div class="col-md-6">
+          <img src="./img/principe.png" style="width:100%" />
+        </div>
+        <div class="col-md-6">
+          <p>
+            La simulation avec SimPLU3D nécessite trois entrées principales :
+            <ul>
+              <li> <span class="highlight">un environnement géographique </span> qui contient les objets géographiques modélisés nécessaires à la simulation avec SimPLU3D ; </li>
+              <li> la définition d'<span class="highlight">un générateur de formes</span> , qui détermine à la fois la stratégie d'optimisation employée par le simulateur et la forme des géométries composant configurations simulées ; </li>
+              <li> l'application de <span class="highlight">contraintes morphologiques</span>, qui s'appuient sur les éléments du modèle de l'environnement géographique et contraignent la génération des formes bâties.</li>
+            </ul>
+            La sortie prend la forme d'une configuration qui respecte les contraintes morphologiques, optimise la fonction d'optimisation et est composée d'un certain nombre de géométries
+          </p>
+        </div>
+
+
+      </div>
+    </div>
+    <div class="container pad-bot5" style="text-align:justify;">
+      <div class="row">
+        <div class="col-md-6">
+          <p>
+            Les bibliothèques de SimPLU3D permettent notamment :
+            <ul>
+              <li> <span class="highlight">une intégration facilitée des données géographiques</span>, un process d'intégration est proposé et permet d'utiliser des environnements géographiques plus ou moins complexes. Seule une couche de parcelles est nécessaire
+                pour lancer des simulations ; </li>
+              <li> <span class="highlight">une approche générique des contraintes et des fonctions d'optimisations utilisées</span> grâce à la bibliothqèe d'optimisation <a href="https://github.com/IGNF/librjmcmc4j">librjmcmc4j</a>, il est possible de définir
+                n'importe quel type de fonctions d'optimisations et la génération de formes bâties s'appuient sur n'importe quelle règle morphologique du moment qu'il est possible de vérifier si elle est respectée.</li>
+              <li> <span class="highlight">le suivi en temps réel de la simulation</span>, à travers une série de visiteurs qui produisent des informations en continu ; </li>
+              <li> <span class="highlight">la paramétrisation des types de géométries </span> utilisées pour produire les formes bâties afin d'adapter les résultats à différents contextes d'utilisation.</li>
+            </ul>
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img src="./img/resultot.png" style="width:100%" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- spacer section:styletopo -->
+  <section id="styletopo" class="section mar-top40 mar-bot40" data-stellar-background-ratio="0.8"></section>
+  <section class="section mar-top40 mar-bot40"></section>
+
+
+  <!-- section realisation -->
+  <section id="realisation" class="section  clearfix">
+    <div class="container" style="text-align:justify;">
+      <div class="row mar-bot50">
+        <div class="col-md-offset-3 col-md-6">
+          <div class="section-header">
+            <h2 class="section-heading animated languageFr" data-animation="bounceInUp">Réalisations</h2>
           </div>
         </div>
       </div>
-    </section>
+      <div class="row">
 
-    <!-- Bootstrap core JavaScript
+        <div class="col-md-6">
+          <p> Les bibliothèques de SimPLU3D ont été utilisées dans différents contextes opérationnels et de recherche :
+            <ul>
+              <li><strong class="highlight">Simulation de la constructibilité en Ile-de-France</strong> (2015 - 2019) : il s'agit d'un projet en collaboration avec l'<a href="https://www.iau-idf.fr/">IAUIDF</a> et la <a href="http://www.driea.ile-de-france.developpement-durable.gouv.fr/">DRIEA</a>                visant à évaluer le potentiel de l'approche SimPLU3D pour déterminer la constructibilité à l'échelle de l'IDF. (Pour en savoir plus, (Brasebin et al, 2017), <a href="https://github.com/SimPLU3D/simplu3D-iauidf">Code</a>) ;</li>
+              <li><strong class="highlight">Démonstrateur pour l'aide à la conception de PLU</strong> : ce projet en partenariat avec l'<a href="https://iscpif.fr/">ISC-PIF</a> vise à évaluer ce qu'il est possible à l'échelle d'un îlot en faisant varier les
+                paramètres du PLU (Pour en savoir plus, voir (Brasebin et al, 2017), <a href="https://github.com/SimPLU3D/simplu3D-OpenMOLE">Code</a>, <a href="https://github.com/SimPLU3D/simplu3D-openmole">Démonstrateur</a>) ;</li>
+              <li><strong class="highlight">PLU++ : vers une concertation plus participative et plus efficace de PLU</strong> (2015 - 2017) : dans le cadre de ce projet de recherche en collaboration avec l'<a href="https://www.eivp-paris.fr/">EIVP</a>, une
+                réflexion a été menée sur la défintion des types de représentation et des interactions à utiliser dans ce contexte. (Pour en savoir plus, <a href="https://ignf.github.io/PLU2PLUS/">site Internet du projet</a>) ;</li>
+              <li><strong class="highlight">Démonstrateur SimPLU3D pour l'instruction de permis de construire</strong> : site Internet de démonstration pour montrer comment SimPLU3D peut faciliter l'instruction de permis de construire en vérifiant automatiquement
+                un certain nombre de règles d'urbanisme (<a href="https://demo-simplu3d.ign.fr/">Site Internet du démonstrateur</a>).</li>
+              <li><strong class="highlight">ArtiScales</strong> : il s'agit d'un couplage avec le modèle <a href="https://sourcesup.renater.fr/mupcity/en.html">Mup-CITY</a> pour la production de formes réalistes de développement résidentiel, de l’échelle
+                du bâtiment à celle de l’ensemble d’une région urbaine dans le cadre du travail de thèse de <a href="http://www.maxime-colomb.eu/">Maxime Colomb</a>. (<a href="https://github.com/ArtiScales">Organisation du projet ArtiScales</a>) ;</li>
+              <li><strong class="highlight">DECODURBA</strong> : un outil pour aider le citoyen à la construction d'une maison individuelle. Cette proposition a reçu un prix durant le hackhathon Hackhurba organisé par le ministère de la transition écologique
+                et sociale (<a href="https://www.etalab.gouv.fr/event/hackurba">Site du hackhathon</a>).</li>
+            </ul>
+          </p>
+        </div>
+
+        <div class="col-md-6">
+          Mettre une image avec des résults
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section about -->
+  <section id="installation" class="section  clearfix">
+    <div class="container" style="text-align:justify;">
+      <div class="row mar-bot50">
+        <div class="col-md-offset-3 col-md-6">
+          <div class="section-header">
+            <h2 class="section-heading animated languageFr" data-animation="bounceInUp">Installation</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-10">
+          <p>
+            Les bibliothèques de SimPLU3D sont construites avec Maven et codées en Java (la version 8 de la JDK est requise) et sont régulièrement déployées sur le serveur Maven de l'IGN (<a href="https://forge-cogit.ign.fr/nexus/#welcome">https://forge-cogit.ign.fr/nexus/#welcome</a>).
+            L'installation s'effectue simplement en créant un projet qui pointe vers les dépendances de SimPLU3D :</p>
+          <li>
+            <ul>Ajout de la dépendance à SimPLU3D dans le pom.xml dans les balises en vérifiant la version actuelle de SimPLU3D.</ul>
+          </li>
+          <pre><code class="XML hljs"><span class="hljs-tag">&lt;<span class="hljs-name">dependency</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">groupId</span>&gt;</span>fr.ign.cogit<span class="hljs-tag">&lt;/<span class="hljs-name">groupId</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">artifactId</span>&gt;</span>simplu3d<span class="hljs-tag">&lt;/<span class="hljs-name">artifactId</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">version</span>&gt;</span>1.2-SNAPSHOT<span class="hljs-tag">&lt;/<span class="hljs-name">version</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">dependency</span>&gt;</span>
+          </code></pre>
+          <li>
+            <ul>Ajouter les dépôts sur lesquels est déployé SimPLU3D et les bibliothèques dans le pom.xml dans les balises <strong>repositories</strong></ul>
+          </li>
+          <pre><code class="XML hljs"><span class="hljs-tag">&lt;<span class="hljs-name">repository</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">id</span>&gt;</span>ign-snapshots<span class="hljs-tag">&lt;/<span class="hljs-name">id</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">name</span>&gt;</span>Cogit Snapshots Repository<span class="hljs-tag">&lt;/<span class="hljs-name">name</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">url</span>&gt;</span>https://forge-cogit.ign.fr/nexus/content/repositories/snapshots/<span class="hljs-tag">&lt;/<span class="hljs-name">url</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">snapshots</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">enabled</span>&gt;</span>true<span class="hljs-tag">&lt;/<span class="hljs-name">enabled</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">snapshots</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">releases</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">enabled</span>&gt;</span>false<span class="hljs-tag">&lt;/<span class="hljs-name">enabled</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">releases</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">repository</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">repository</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">id</span>&gt;</span>ign-releases<span class="hljs-tag">&lt;/<span class="hljs-name">id</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">name</span>&gt;</span>Cogit Releases Repository<span class="hljs-tag">&lt;/<span class="hljs-name">name</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">url</span>&gt;</span>https://forge-cogit.ign.fr/nexus/content/repositories/releases/<span class="hljs-tag">&lt;/<span class="hljs-name">url</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">snapshots</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">enabled</span>&gt;</span>false<span class="hljs-tag">&lt;/<span class="hljs-name">enabled</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">snapshots</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">releases</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">enabled</span>&gt;</span>true<span class="hljs-tag">&lt;/<span class="hljs-name">enabled</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">releases</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">repository</span>&gt;</span>
+          </code></pre>
+
+          <p><img alt="#f03c15" src="https://placehold.it/15/f03c15/000000?text=+"> <strong>Attention</strong>: il se peut que la compilation du projet ne se fasse pas à cause de problèmes liées à la vérification du certificat ssh de la forge IGN. Pour cela
+            deux solutions :</p>
+          <ul>
+            <li>
+              <p>Installer localement le certificat comme décrit dans le lien suivant <a href="http://ignf.github.io/geoxygene/documentation/developer/install.html">http://ignf.github.io/geoxygene/documentation/developer/install.html</a></p>
+            </li>
+            <li>
+              <p>Faire une installation non sécurisée lors du build du projet projet : <strong>mvn clean install -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true</strong></p>
+            </li>
+          </ul>
+
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <!-- section realisation -->
+  <section id="documentation" class="section  clearfix">
+    <div class="container" style="text-align:justify;">
+      <div class="row mar-bot50">
+        <div class="col-md-offset-3 col-md-6">
+          <div class="section-header">
+            <h2 class="section-heading animated languageFr" data-animation="bounceInUp">Documentation</h2>
+          </div>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="col-md-10">
+            <h3>Documentation du code</h3>
+            <p>
+              Une documentation a été mise en ligne <a href="https://simplu3d.github.io/simplu3D-tutorial">(https://simplu3d.github.io/simplu3D-tutorial)</a> pour comprendre comment utiliser SimPLU3D. Cette documentation s'accompagne d'une série de codes
+              (déposés sur le dépôt GitHub <a href="https://github.com/SimPLU3D/simplu3D-tutorial/">SimPLU3D-tutorial</a>) commentés qui illustrent différentes possibilités de personnalisation de l'approche.
+            </p>
+            <h3>Publications</h3>
+              <p>Quelques publications permettent de présenter les différents aspects de l'approche :</p>
+              <ul>
+                <li>L'ensemble de la conception de SimPLU3D est décrit dans la thèse de Mickaël Brasebin : Brasebin, M., Apr. 2014. <span class="highlight">Les données géographiques 3D pour simuler l'impact de la réglementation urbaine sur la morphologie du bâti</span>. Ph.D. thesis, Université Paris-Est (<a href="https://mbrasebin.github.io/publications/2014-these.pdf">Mémoire</a>, <a href="https://mbrasebin.github.io/presentations/2014-These.pdf">Présentation</a>)</li>
+                <li>Le modèle de l'environnement géographique  : Brasebin, M., J. Perret, S. Mustière and C. Weber (2016) <span class="highlight">A Generic Model to Exploit Urban Regulation Knowledge</span>, ISPRS International Journal of Geo-Information, vol. 5, n. 2, pp. 14, doi:10.3390/ijgi5020014 (<a href="https://mbrasebin.github.io/publications/2016-IJGI.pdf">Article</a>)</li>
+                <li>La génération de formes bâties : Brasebin M., Perret, J., Mustière S., Weber C. (2017) <span class="highlight">3D urban data to assess local urban regulation influence</span>, Computers, Environment and Urban Systems, 2017, ISSN 0198-9715, https://doi.org/10.1016/j.compenvurbsys.2017.10.002 (<a href="https://mbrasebin.github.io/publications/2017-CEUS.pdf">Article</a>)</li>
+                <li>Les cas d'usage autour du couplage entre SimPLU3D et OpenMOLE : Brasebin, M., P. Chapron, G. Chérel, M. Leclaire, I. Lokhat, J. Perret and R. Reuillon (2017), <span class="highlight">Apports des méthodes d’exploration et de distribution appliquées à la simulation des droits à bâtir</span>, Actes du Colloque International de Géomatique et d'Analyse Spatiale (SAGEO 2017). (<a href="https://mbrasebin.github.io/publications/2017-Sageo.pdf">Article<a>, <a href="https://mbrasebin.github.io/presentations/2017-SAGEO.pdf">Présentation<a>) </li>
+                <li>Présentation Le recuit simulé et la librjmcmc (<a href="https://github.com/IGNF/librjmcmc4j">https://github.com/IGNF/librjmcmc4j</a>) : Brédif, M., Tournaire, O., Aug. 2012. <span class="highlight">librjmcmc: An open-source generic c++ library for stochastic optimization</span>. In: The XXII Congress of the International Society of Photogrammetry and Remote Sensing (<a href="https://hal.archives-ouvertes.fr/hal-01883008">Article</a>).</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact -->
+  <section id="contact" class="section appear clearfix">
+    <div class="row mar-bot50">
+      <div class="col-md-offset-3 col-md-6">
+        <div class="section-header">
+          <h2 class="section-heading animated languageFr" data-animation="bounceInUp">Contactez nous</h2>
+          <h2 class="section-heading animated languageEn" data-animation="bounceInUp">Contact us</h2>
+          <p class="languageFr">mickael.brasebin@ign.fr</p>
+          <p class="languageEn">mickael.brasebin@ign.fr</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- section gallerie -->
+  <section id="gallerie" class="section  clearfix">
+    <div class="container" style="text-align:justify;">
+      <div class="row mar-bot50">
+        <div class="col-md-offset-3 col-md-6">
+          <div class="section-header">
+            <h2 class="section-heading animated languageFr" data-animation="bounceInUp">Gallerie</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+      Quelques belles illustrations du projet
+      </div>
+    </div>
+  </section>
+
+  <!-- section remerciement -->
+  <section id="remerciement" class="section  clearfix">
+    <div class="container" style="text-align:justify;">
+      <div class="row mar-bot50">
+        <div class="col-md-offset-3 col-md-6">
+          <div class="section-header">
+            <h2 class="section-heading animated languageFr" data-animation="bounceInUp">Remerciement</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        Financeurs et contributeurs
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section mar-top50 mar-bot50"></section>
+
+
+  <a href="#header" class="scrollup"><i class="fa fa-chevron-up"></i></a>
+
+  <section id="footer" class="section footer">
+    <div class="container">
+      <div class="row align-center copyright">
+        <div class="col-sm-12">
+          <p>Copyright &copy; 2014 - 2019 IGN - Institut National de l'Information Géographique et Forestière</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-    <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/jquery.isotope.min.js"></script>
-    <script src="js/jquery.nicescroll.min.js"></script>
-    <script src="js/fancybox/jquery.fancybox.pack.js"></script>
-    <script src="js/skrollr.min.js"></script>
-    <script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
-    <script src="js/jquery.localscroll-1.2.7-min.js"></script>
-    <script src="js/stellar.js"></script>
-    <script src="js/jquery.appear.js"></script>
-    <script src="js/validate.js"></script>
-    <script src="js/main.js"></script>
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+  <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.isotope.min.js"></script>
+  <script src="js/jquery.nicescroll.min.js"></script>
+  <script src="js/fancybox/jquery.fancybox.pack.js"></script>
+  <script src="js/skrollr.min.js"></script>
+  <script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
+  <script src="js/jquery.localscroll-1.2.7-min.js"></script>
+  <script src="js/stellar.js"></script>
+  <script src="js/jquery.appear.js"></script>
+  <script src="js/validate.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>

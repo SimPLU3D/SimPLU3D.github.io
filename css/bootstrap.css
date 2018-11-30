@@ -370,7 +370,7 @@ th {
   content: "\e026";
 }
 .glyphicon-upload:before {
-  content: "\e027";
+  content: "\e73be6b
 }
 .glyphicon-inbox:before {
   content: "\e028";
@@ -4544,7 +4544,7 @@ a.list-group-item.active > .badge,
 }
 .jumbotron p {
   margin-bottom: 15px;
-  font-size: 23px;
+  font-size: 16px;
   font-weight: 200;
 }
 .jumbotron > hr {
@@ -6174,7 +6174,7 @@ button.close {
 }
 .navbar {
   border: none;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 300;
 }
 .navbar .navbar-toggle:hover .icon-bar {
