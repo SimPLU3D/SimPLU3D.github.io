@@ -2,12 +2,16 @@
     color: #73be6b;
 }
 
+.highlightorange{
+    color: #FF4500;
+}
 
 .jumbotron {
   background-color: #ffffff;
   padding-top: 90px;
   padding-bottom: 90px;
   text-align: justify;
+  background-image: url(../img/background/back.png);
 }
 
 .list-group-item{
@@ -34,27 +38,37 @@ margin-left: 5px;
  --- Parallax ---
 ============================= */
 
-#logos{
-	background-image: url(../img/background/back2.png);
-}
-
-#mix{
-	background-image: url(../img/background/back3.png);
+#background1{
+	background-image: url(../img/background/back1.png);
 	padding-top: 250px;
 	padding-bottom: 150px;
 }
 
-#styletopo{
+#background2{
+	background-image: url(../img/background/back2.png);
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+#background3{
+	background-image: url(../img/background/back3.png);
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+#background4{
 	background-image: url(../img/background/back4.png);
 	padding-top: 150px;
 	padding-bottom: 150px;
 }
 
-#style{
+
+#background5{
 	background-image: url(../img/background/back5.png);
 	padding-top: 150px;
 	padding-bottom: 150px;
 }
+
 
 .img_logo {
         width: 100%;
@@ -462,7 +476,7 @@ a.scrollup:hover{
 	color:#fff;
 }
 a.socialIcon:hover, .socialHoverClass {
-	color:#44BCDD;
+	color:#73be6b;
 }
 
 .fa-dailymotion:before {
@@ -554,7 +568,7 @@ nav#filter a {
 	color:#555;
 }
 nav#filter a:hover, nav#filter a.current {
-	background-color: #44BCDD;
+	background-color: #73be6b;
 	color:#fff;
 }
 
@@ -596,6 +610,9 @@ nav#filter a {
 	transition: all 0.2s ease-in-out;
 }
 .portfolio-item img {
+
+    margin-left: auto;
+  margin-right: auto;
 	-webkit-transition: all 300ms linear;
 	-moz-transition: all 300ms linear;
 	-o-transition: all 300ms linear;
@@ -619,7 +636,7 @@ nav#filter a {
 	height: 100%;
     transition: all 200ms ease-in-out 0s;
 	opacity: 1;
-	background-color: #008cba;
+	background-color: #73be6b;
 }
 
 .portfolio-item .portfolio-desc a {

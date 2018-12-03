@@ -64,10 +64,7 @@
             <span class="lang-xs lang-lbl" lang="en"></span>
           </button>
 
-          <!--<a href="#" class="languageEn changeLangFr"><span class="lang-sm lang-lbl" lang="fr">TOTO</span></a>
-		  <a href="#" class="languageFr changeLangEn">
-          <img src  ="http://flags.redpixart.com/img/united_kingdom_preview.gif" alt="" style="float: right;padding-top: 15px;" /><span class="lang-sm lang-lbl" lang="fr">TOTO</span></a>-->
-        </div>
+            </div>
         <!--/.nav-collapse -->
       </div>
     </div>
@@ -79,7 +76,6 @@
       <div class="row">
         <div class="col-md-12">
           <div class="col-xs-4 col-md-6" id="logo-main"><img class="center-block" src="./logo/logo_small.png" alt="logo"></div>
-          <!--<div class="col-xs-4 col-md-3" id="IMY"><img class="center-block" src="img/logos/IMY.png"></div>-->
           <div class="col-xs-4 col-md-6" id="logo-ANR-funded"><img class="center-block" src="./logo/logo_ign.png"></div>
         </div>
       </div>
@@ -87,36 +83,32 @@
       <div class="row pad-top35">
         <div class="col-md-12">
           <div class="col">
-            <div/>
+            </div>
 
             <!-- Chapeau introductif -->
             <div class="col-md-10">
-              <p class="languageFr"><strong>SimPLU3D est un ensemble de bibliothèques Java Open-Source qui permet de simuler des formes bâties 3D à partir de contraintes morphologiques  en optimisant une fonction numérique. Ces codes peuvent être utilisés pour questionner le rapport entre des contraintes morphologiques (par exemple issues de réglementations locales d'urbanisme) et les formes produites à l'échelle du quartier ou de l'agglomération. L'approche de SimPLU3D est générique dans le sens où il est possible de définir ses propres contraintes, fonctions d'optimisation ou types de formes.
+              <p class="languageFr"><strong>SimPLU3D est un ensemble de bibliothèques Java Open-Source qui permet de simuler des formes bâties 3D à partir de contraintes morphologiques  en optimisant une fonction numérique. Ces codes peuvent être utilisés pour questionner le rapport entre des contraintes morphologiques (par exemple, issues de réglementations locales d'urbanisme) et les formes produites à l'échelle du quartier ou de l'agglomération. L'approche de SimPLU3D est générique dans le sens où il est possible de définir ses propres contraintes, fonctions d'optimisation ou types de formes.
       <br />  Cette bibliothèque a notamment été utilisée pour modéliser des formes bâties à partir de contraintes issues de Plans Locaux d'Urbanisme (PLU) et permet de répondre à ce type de questions :
       <ul>
         <li>  Quelle est la quantité de logements que l'on peut bâtir sur une parcelle ?</li>
-<li>  Comment est-ce que la forme de mon quartier va évoluer si l'on change un PLU ?</li>
-        <li>     Est-ce que des bâtiments produisant une ombre trop importante sur les parcelles voisines risquent d'être construits ?</li>
+        <li>  Comment est-ce que la forme de mon quartier va évoluer si l'on change un PLU ?</li>
+        <li>   Est-ce que des bâtiments produisant une ombre trop importante sur les parcelles voisines risquent d'être construits ?</li>
       </ul>
-        L'ensemble de ces bibliothèque est disponible dans l'<a href="https://github.com/SimPLU3D/simplu3D">organisation GitHub SimPLU3D</a> et est développé et maintenu par le laboratoire <a href="http://recherche.ign.fr/">LASTIG</a> de l'<a href="http://www.ign.fr/">Institut National de l'Information Géographique et Forestière</a>.</strong></p>
-              </strong>
+        L'ensemble de ces bibliothèque est disponible dans l'<a class="highlightorange" href="https://github.com/SimPLU3D/simplu3D">organisation GitHub SimPLU3D</a> et est développé et maintenu par le laboratoire <a class="highlightorange" href="http://recherche.ign.fr/">LASTIG</a> de l'<a class="highlightorange" href="http://www.ign.fr/">Institut National de l'Information Géographique et Forestière</a>.</strong></p>
+
             </div>
             <div class="col">
-              <div/>
+              </div>
             </div>
           </div>
-
-        </div>
       </div>
-      <!-- /.container -->
-
     </div>
-  </div>
+
 
 
   <!-- ACTUS -->
 
-  <section id="news" class="pad-top35 section appear clearfix">
+  <section id="news" class="pad-top5 section appear clearfix">
     <div class="container" style="text-align:justify;">
       <div class="section-header">
         <h2 class="section-heading animated" data-animation="bounceInUp">News</h2>
@@ -129,14 +121,13 @@
         </div>
       </div>
     </div>
-    </div>
   </section>
   <!-- fin container -->
 
   <!-- /.jumbotron -->
 
   <!-- spacer section:mix -->
-  <section id="mix" class="section mar-top40 mar-bot40" data-stellar-background-ratio="0.8"></section>
+  <section id="background1" class="section mar-top40 mar-bot40" data-stellar-background-ratio="0.8"></section>
   <section class="section mar-top40 mar-bot40"></section>
 
   <!-- section about -->
@@ -162,10 +153,10 @@
             La simulation avec SimPLU3D nécessite trois entrées principales :
             <ul>
               <li> <span class="highlight">un environnement géographique </span> qui contient les objets géographiques modélisés nécessaires à la simulation avec SimPLU3D ; </li>
-              <li> la définition d'<span class="highlight">un générateur de formes</span> , qui détermine à la fois la stratégie d'optimisation employée par le simulateur et la forme des géométries composant configurations simulées ; </li>
+              <li> la définition d'<span class="highlight">un générateur de formes</span>, qui détermine à la fois la stratégie d'optimisation employée par le simulateur et la forme des géométries composant les configurations simulées ; </li>
               <li> l'application de <span class="highlight">contraintes morphologiques</span>, qui s'appuient sur les éléments du modèle de l'environnement géographique et contraignent la génération des formes bâties.</li>
             </ul>
-            La sortie prend la forme d'une configuration qui respecte les contraintes morphologiques, optimise la fonction d'optimisation et est composée d'un certain nombre de géométries
+            La sortie prend la forme d'une configuration qui respecte les contraintes morphologiques, optimise la fonction d'optimisation et est composée d'un certain nombre de géométries.
           </p>
         </div>
 
@@ -178,10 +169,10 @@
           <p>
             Les bibliothèques de SimPLU3D permettent notamment :
             <ul>
-              <li> <span class="highlight">une intégration facilitée des données géographiques</span>, un process d'intégration est proposé et permet d'utiliser des environnements géographiques plus ou moins complexes. Seule une couche de parcelles est nécessaire
+              <li> <span class="highlight">une intégration facilitée des données géographiques</span> : un process d'intégration est proposé et permet d'utiliser des environnements géographiques plus ou moins complexes. Seule une couche de parcelles est nécessaire
                 pour lancer des simulations ; </li>
-              <li> <span class="highlight">une approche générique des contraintes et des fonctions d'optimisations utilisées</span> grâce à la bibliothqèe d'optimisation <a href="https://github.com/IGNF/librjmcmc4j">librjmcmc4j</a>, il est possible de définir
-                n'importe quel type de fonctions d'optimisations et la génération de formes bâties s'appuient sur n'importe quelle règle morphologique du moment qu'il est possible de vérifier si elle est respectée.</li>
+              <li> <span class="highlight">une approche générique des contraintes et des fonctions d'optimisation utilisées</span> grâce à la bibliothèque d'optimisation <a href="https://github.com/IGNF/librjmcmc4j">librjmcmc4j</a>, il est possible de définir
+                n'importe quel type de fonctions d'optimisation et la génération de formes bâties s'appuie sur n'importe quelle règle morphologique du moment qu'il est possible de vérifier son respect ;</li>
               <li> <span class="highlight">le suivi en temps réel de la simulation</span>, à travers une série de visiteurs qui produisent des informations en continu ; </li>
               <li> <span class="highlight">la paramétrisation des types de géométries </span> utilisées pour produire les formes bâties afin d'adapter les résultats à différents contextes d'utilisation.</li>
             </ul>
@@ -195,7 +186,7 @@
   </section>
 
   <!-- spacer section:styletopo -->
-  <section id="styletopo" class="section mar-top40 mar-bot40" data-stellar-background-ratio="0.8"></section>
+  <section id="background2" class="section mar-top40 mar-bot40" data-stellar-background-ratio="0.8"></section>
   <section class="section mar-top40 mar-bot40"></section>
 
 
@@ -216,7 +207,7 @@
             <ul>
               <li><strong class="highlight">Simulation de la constructibilité en Ile-de-France</strong> (2015 - 2019) : il s'agit d'un projet en collaboration avec l'<a href="https://www.iau-idf.fr/">IAUIDF</a> et la <a href="http://www.driea.ile-de-france.developpement-durable.gouv.fr/">DRIEA</a>                visant à évaluer le potentiel de l'approche SimPLU3D pour déterminer la constructibilité à l'échelle de l'IDF. (Pour en savoir plus, (Brasebin et al, 2017), <a href="https://github.com/SimPLU3D/simplu3D-iauidf">Code</a>) ;</li>
               <li><strong class="highlight">Démonstrateur pour l'aide à la conception de PLU</strong> : ce projet en partenariat avec l'<a href="https://iscpif.fr/">ISC-PIF</a> vise à évaluer ce qu'il est possible à l'échelle d'un îlot en faisant varier les
-                paramètres du PLU (Pour en savoir plus, voir (Brasebin et al, 2017), <a href="https://github.com/SimPLU3D/simplu3D-OpenMOLE">Code</a>, <a href="https://github.com/SimPLU3D/simplu3D-openmole">Démonstrateur</a>) ;</li>
+                paramètres du PLU (Pour en savoir plus, voir (Brasebin et al, 2017), <a href="https://github.com/SimPLU3D/simplu3D-OpenMOLE">Code</a>, <a href="https://simplu.openmole.org/">Démonstrateur</a>) ;</li>
               <li><strong class="highlight">PLU++ : vers une concertation plus participative et plus efficace de PLU</strong> (2015 - 2017) : dans le cadre de ce projet de recherche en collaboration avec l'<a href="https://www.eivp-paris.fr/">EIVP</a>, une
                 réflexion a été menée sur la défintion des types de représentation et des interactions à utiliser dans ce contexte. (Pour en savoir plus, <a href="https://ignf.github.io/PLU2PLUS/">site Internet du projet</a>) ;</li>
               <li><strong class="highlight">Démonstrateur SimPLU3D pour l'instruction de permis de construire</strong> : site Internet de démonstration pour montrer comment SimPLU3D peut faciliter l'instruction de permis de construire en vérifiant automatiquement
@@ -230,11 +221,17 @@
         </div>
 
         <div class="col-md-6">
-          Mettre une image avec des résults
+          <img src="./img/results.png"  style="width:100%" />
         </div>
       </div>
     </div>
   </section>
+
+
+    <!-- spacer section:styletopo -->
+    <section id="background3" class="section mar-top40 mar-bot40" data-stellar-background-ratio="0.8"></section>
+    <section class="section mar-top40 mar-bot40"></section>
+
 
   <!-- section about -->
   <section id="installation" class="section  clearfix">
@@ -242,12 +239,13 @@
       <div class="row mar-bot50">
         <div class="col-md-offset-3 col-md-6">
           <div class="section-header">
-            <h2 class="section-heading animated languageFr" data-animation="bounceInUp">Installation</h2>
+            <h2 class="section-heading animated languageFr" data-animation="bounceInUp">Installation et première simulation</h2>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-md-10">
+          <h3>Installation</h3>
           <p>
             Les bibliothèques de SimPLU3D sont construites avec Maven et codées en Java (la version 8 de la JDK est requise) et sont régulièrement déployées sur le serveur Maven de l'IGN (<a href="https://forge-cogit.ign.fr/nexus/#welcome">https://forge-cogit.ign.fr/nexus/#welcome</a>).
             L'installation s'effectue simplement en créant un projet qui pointe vers les dépendances de SimPLU3D :</p>
@@ -297,8 +295,47 @@
               <p>Faire une installation non sécurisée lors du build du projet projet : <strong>mvn clean install -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true</strong></p>
             </li>
           </ul>
-
-
+          <h3>Première simulation</h3>
+          <p>Pour lancer une première simulation déjà prête à l'emploi, il suffit d'exécuter le code ci-dessous provenant de la classe <a href="https://github.com/SimPLU3D/simplu3D-tutorial/blob/master/src/main/java/fr/ign/simplu3d/firstSimulation/BasicSimulator.java">BasicSimulator</a> en clonant le projet <a href="https://github.com/SimPLU3D/simplu3D-tutorial">SimPLU3D-tutorial</a> qui contient des exemples de code.  </p>
+          <pre>
+          <code class="Java hljs"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> <span class="hljs-keyword">throws</span> Exception </span>{
+            <span class="hljs-comment">//Step 0 ; Defining an output existing folder</span>
+            String outputFolder = <span class="hljs-string">"/tmp/"</span>;
+            <span class="hljs-comment">// Step 1 : Creating the geographic environnement using the repository that contains the data</span>
+            <span class="hljs-comment">// Load default environment (data are in resource directory)</span>
+            Environnement env = LoaderSHP.loadNoDTM(
+            <span class="hljs-keyword">new</span> File(BasicSimulator.class.getClassLoader().getResource(<span class="hljs-string">"firstSimulation/data/"</span>).getPath()));
+            <span class="hljs-comment">// Select a parcel on which generation is proceeded</span>
+            BasicPropertyUnit bPU = env.getBpU().get(<span class="hljs-number">2</span>);
+            <span class="hljs-comment">//Step 2 : Defining the regulation that will be applied during the simulation</span>
+            <span class="hljs-comment">// Rules parameters.8</span>
+            <span class="hljs-comment">// Distance to road</span>
+            <span class="hljs-keyword">double</span> distReculVoirie = <span class="hljs-number">2</span>;
+            <span class="hljs-comment">// Distance to bottom of the parcel</span>
+            <span class="hljs-keyword">double</span> distReculFond = <span class="hljs-number">3</span>;
+            <span class="hljs-comment">// Distance to lateral parcel limits</span>
+            <span class="hljs-keyword">double</span> distReculLat = <span class="hljs-number">4</span>;
+            <span class="hljs-comment">// Distance between two buildings of a parcel</span>
+            <span class="hljs-keyword">double</span> distanceInterBati = <span class="hljs-number">0</span>;
+            <span class="hljs-comment">// Maximal ratio built area</span>
+            <span class="hljs-keyword">double</span> maximalCES = <span class="hljs-number">0.5</span>;
+            <span class="hljs-comment">//Instanciation of a predicate class</span>
+            SamplePredicate&lt;Cuboid, GraphConfiguration&lt;Cuboid&gt;, BirthDeathModification&lt;Cuboid&gt;&gt; pred = <span class="hljs-keyword">new</span>
+        SamplePredicate&lt;&gt;(bPU, distReculVoirie, distReculFond, distReculLat, distanceInterBati, maximalCES);
+            <span class="hljs-comment">//Step 3 : Defining the regulation that will be applied during the simulation</span>
+            <span class="hljs-comment">// Instantiation of the sampler</span>
+        OptimisedBuildingsCuboidFinalDirectRejection oCB = <span class="hljs-keyword">new</span> OptimisedBuildingsCuboidFinalDirectRejection();
+            <span class="hljs-comment">// Loading the parameters for the building shape generation</span>
+            String folderName = BasicSimulator.class.getClassLoader().getResource(<span class="hljs-string">"firstSimulation/scenario/"</span>).getPath();
+            String fileName = <span class="hljs-string">"params.json"</span>;
+            SimpluParameters p = <span class="hljs-keyword">new</span> SimpluParametersJSON(<span class="hljs-keyword">new</span> File(folderName + fileName));
+            <span class="hljs-comment">// Run of the optimisation on a parcel with the predicate</span>
+            GraphConfiguration&lt;Cuboid&gt; cc = oCB.process(bPU, p, env, <span class="hljs-number">1</span>, pred);
+            <span class="hljs-comment">//4 - Writting the output</span>
+            SaveGeneratedObjects.saveShapefile(outputFolder + <span class="hljs-string">"out.shp"</span>, cc, bPU.getId(), <span class="hljs-number">0</span>);
+          }
+          </code>
+        </pre>
 
         </div>
       </div>
@@ -306,6 +343,11 @@
   </section>
 
 
+
+
+    <!-- spacer section:styletopo -->
+    <section id="background4" class="section mar-top40 mar-bot40" data-stellar-background-ratio="0.8"></section>
+    <section class="section mar-top40 mar-bot40"></section>
 
 
 
@@ -329,14 +371,20 @@
               (déposés sur le dépôt GitHub <a href="https://github.com/SimPLU3D/simplu3D-tutorial/">SimPLU3D-tutorial</a>) commentés qui illustrent différentes possibilités de personnalisation de l'approche.
             </p>
             <h3>Publications</h3>
-              <p>Quelques publications permettent de présenter les différents aspects de l'approche :</p>
-              <ul>
-                <li>L'ensemble de la conception de SimPLU3D est décrit dans la thèse de Mickaël Brasebin : Brasebin, M., Apr. 2014. <span class="highlight">Les données géographiques 3D pour simuler l'impact de la réglementation urbaine sur la morphologie du bâti</span>. Ph.D. thesis, Université Paris-Est (<a href="https://mbrasebin.github.io/publications/2014-these.pdf">Mémoire</a>, <a href="https://mbrasebin.github.io/presentations/2014-These.pdf">Présentation</a>)</li>
-                <li>Le modèle de l'environnement géographique  : Brasebin, M., J. Perret, S. Mustière and C. Weber (2016) <span class="highlight">A Generic Model to Exploit Urban Regulation Knowledge</span>, ISPRS International Journal of Geo-Information, vol. 5, n. 2, pp. 14, doi:10.3390/ijgi5020014 (<a href="https://mbrasebin.github.io/publications/2016-IJGI.pdf">Article</a>)</li>
-                <li>La génération de formes bâties : Brasebin M., Perret, J., Mustière S., Weber C. (2017) <span class="highlight">3D urban data to assess local urban regulation influence</span>, Computers, Environment and Urban Systems, 2017, ISSN 0198-9715, https://doi.org/10.1016/j.compenvurbsys.2017.10.002 (<a href="https://mbrasebin.github.io/publications/2017-CEUS.pdf">Article</a>)</li>
-                <li>Les cas d'usage autour du couplage entre SimPLU3D et OpenMOLE : Brasebin, M., P. Chapron, G. Chérel, M. Leclaire, I. Lokhat, J. Perret and R. Reuillon (2017), <span class="highlight">Apports des méthodes d’exploration et de distribution appliquées à la simulation des droits à bâtir</span>, Actes du Colloque International de Géomatique et d'Analyse Spatiale (SAGEO 2017). (<a href="https://mbrasebin.github.io/publications/2017-Sageo.pdf">Article<a>, <a href="https://mbrasebin.github.io/presentations/2017-SAGEO.pdf">Présentation<a>) </li>
-                <li>Présentation Le recuit simulé et la librjmcmc (<a href="https://github.com/IGNF/librjmcmc4j">https://github.com/IGNF/librjmcmc4j</a>) : Brédif, M., Tournaire, O., Aug. 2012. <span class="highlight">librjmcmc: An open-source generic c++ library for stochastic optimization</span>. In: The XXII Congress of the International Society of Photogrammetry and Remote Sensing (<a href="https://hal.archives-ouvertes.fr/hal-01883008">Article</a>).</li>
-              </ul>
+            <p>Quelques publications permettent de présenter les différents aspects de l'approche :</p>
+            <ul>
+              <li>L'ensemble de la conception de SimPLU3D est décrit dans la thèse de Mickaël Brasebin : Brasebin, M., Apr. 2014. <span class="highlight">Les données géographiques 3D pour simuler l'impact de la réglementation urbaine sur la morphologie du bâti</span>.
+                Ph.D. thesis, Université Paris-Est (<a href="https://mbrasebin.github.io/publications/2014-these.pdf">Mémoire</a>, <a href="https://mbrasebin.github.io/presentations/2014-These.pdf">Présentation</a>)</li>
+              <li>Le modèle de l'environnement géographique : Brasebin, M., J. Perret, S. Mustière and C. Weber (2016) <span class="highlight">A Generic Model to Exploit Urban Regulation Knowledge</span>, ISPRS International Journal of Geo-Information, vol.
+                5, n. 2, pp. 14, doi:10.3390/ijgi5020014 (<a href="https://mbrasebin.github.io/publications/2016-IJGI.pdf">Article</a>)</li>
+              <li>La génération de formes bâties : Brasebin M., Perret, J., Mustière S., Weber C. (2017) <span class="highlight">3D urban data to assess local urban regulation influence</span>, Computers, Environment and Urban Systems, 2017, ISSN 0198-9715,
+                https://doi.org/10.1016/j.compenvurbsys.2017.10.002 (<a href="https://mbrasebin.github.io/publications/2017-CEUS.pdf">Article</a>)</li>
+              <li>Les cas d'usage autour du couplage entre SimPLU3D et OpenMOLE : Brasebin, M., P. Chapron, G. Chérel, M. Leclaire, I. Lokhat, J. Perret and R. Reuillon (2017), <span class="highlight">Apports des méthodes d’exploration et de distribution appliquées à la simulation des droits à bâtir</span>,
+                Actes du Colloque International de Géomatique et d'Analyse Spatiale (SAGEO 2017). (<a href="https://mbrasebin.github.io/publications/2017-Sageo.pdf">Article</a>, <a href="https://mbrasebin.github.io/presentations/2017-SAGEO.pdf">Présentation</a>)
+                </li>
+              <li>Présentation Le recuit simulé et la librjmcmc (<a href="https://github.com/IGNF/librjmcmc4j">https://github.com/IGNF/librjmcmc4j</a>) : Brédif, M., Tournaire, O., Aug. 2012. <span class="highlight">librjmcmc: An open-source generic c++ library for stochastic optimization</span>.
+                In: The XXII Congress of the International Society of Photogrammetry and Remote Sensing (<a href="https://hal.archives-ouvertes.fr/hal-01883008">Article</a>).</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -345,18 +393,31 @@
 
   <!-- contact -->
   <section id="contact" class="section appear clearfix">
-    <div class="row mar-bot50">
-      <div class="col-md-offset-3 col-md-6">
-        <div class="section-header">
-          <h2 class="section-heading animated languageFr" data-animation="bounceInUp">Contactez nous</h2>
-          <h2 class="section-heading animated languageEn" data-animation="bounceInUp">Contact us</h2>
-          <p class="languageFr">mickael.brasebin@ign.fr</p>
-          <p class="languageEn">mickael.brasebin@ign.fr</p>
+    <div class="container" style="text-align:justify;">
+
+
+      <div class="row mar-bot50">
+        <div class="col-md-offset-3 col-md-6">
+          <div class="section-header">
+            <h2 class="section-heading animated languageFr" data-animation="bounceInUp">Contacts et conditions d'utilisation</h2>
+            <h2 class="section-heading animated languageEn" data-animation="bounceInUp">Contact us</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="col-md-10">
+            <p class="languageFr">Vous pouvez contacter <span class="highlight">Julien Perret</span> ou <span class="highlight">Mickaël Brasebin</span> ({nom.prénom} (AT) {gmail} (POINT) {com}) pour discuter de l'utilisation de SimPLU3D. Pour signaler un bug n'hésitez pas à poster une issue sur le ou les projets concernés.</p>
+            <p class="languageFr">Les bibliothèques de SimPLU3D sont en licence CeCILL et GPL-3. Si vous utilisez ces outils pour un article scientifique vous êtes priés de citer un des articles mentionnés dans cette page. De plus nous sommes preneurs de tous retours ou de toutes contributions pour améliorer ces outils.</p>
+            <p class="languageEn">This software is free to use under CeCILL license. However, if you use this library in a research paper, you are kindly requested to acknowledge the use of this software. Furthermore, we are interested in every feedbacks about this library if you find it useful, if you want to contribute or if you have some suggestions to improve it.</p>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
+  <section id="background5" class="section mar-top40 mar-bot40" data-stellar-background-ratio="0.8"></section>
+  <section class="section mar-top40 mar-bot40"></section>
 
   <!-- section gallerie -->
   <section id="gallerie" class="section  clearfix">
@@ -369,9 +430,131 @@
         </div>
       </div>
       <div class="row">
-      Quelques belles illustrations du projet
+        <div class="col-md-12">
+          <article class="col-md-4 isotopeItem images">
+								<div class="portfolio-item">
+									<img src="./img/gallerie/gallery1.png" style="max-height:200px" alt="" />
+									<div class="portfolio-desc align-center">
+										<div class="folio-info">
+											<h5 class="languageFr"><a href="./img/gallerie/gallery1.png">Résultat de simulation d'un bâtiment avec un toit.</a></h5>
+                      <h5 class="languageEn"><a href="./img/gallerie/gallery1.png">Simulation of a building with a typified roof.</a></h5>
+											<a href="./img/gallerie/gallery1.png" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+										</div>
+									</div>
+								</div>
+  </article>
+
+  <article class="col-md-4 isotopeItem images">
+        <div class="portfolio-item">
+          <img src="./img/gallerie/gallery2.png" style="max-height:200px" alt="" />
+          <div class="portfolio-desc align-center">
+            <div class="folio-info">
+              <h5 class="languageFr"><a href="./img/gallerie/gallery2.png">Vue 2D de formes bâties simulées avec les même paramètres de génération sur un ensemble de quartiers (seules les règles diffèrent).</a></h5>
+              <h5 class="languageEn"><a href="./img/gallerie/gallery2.png">2D view of building shapes generated on several districts with a same generator parametrization (only urban regulation differs).</a></h5>
+              <a href="./img/gallerie/gallery2.png" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+            </div>
+          </div>
+        </div>
+</article>
+
+
+<article class="col-md-4 isotopeItem images">
+      <div class="portfolio-item">
+        <img src="./img/gallerie/gallery3.png" style="max-height:200px" alt="" />
+        <div class="portfolio-desc align-center">
+          <div class="folio-info">
+            <h5 class="languageFr"><a href="./img/gallerie/gallery3.png">Simulation de différents bâtiments en L avec un toit sur des parcelles bâties.</a></h5>
+            <h5 class="languageEn"><a href="./img/gallerie/gallery3.png">Simulation of L-shaped buildings with roof on built parcels.</a></h5>
+            <a href="./img/gallerie/gallery3.png" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+          </div>
+        </div>
       </div>
-    </div>
+</article>
+
+
+<article class="col-md-4 isotopeItem images">
+      <div class="portfolio-item">
+        <img src="./img/gallerie/gallery4.png" style="max-height:200px" alt="" />
+        <div class="portfolio-desc align-center">
+          <div class="folio-info">
+            <h5 class="languageFr"><a href="./img/gallerie/gallery4.png">Stylisation de résultats de simulation (<a href="https://ignf.github.io/PLU2PLUS/"><span class="highlightorange">projet PLU++</span></a>)</a></h5>
+            <h5 class="languageEn"><a href="./img/gallerie/gallery4.png">Stylization of simulated results (<a href="https://ignf.github.io/PLU2PLUS/"><span class="highlightorange">PLU++ project</span></a>)</a></a></h5>
+            <a href="./img/gallerie/gallery4.png" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+          </div>
+        </div>
+      </div>
+</article>
+
+<article class="col-md-4 isotopeItem images">
+      <div class="portfolio-item">
+        <img src="./img/gallerie/gallery5.png" style="max-height:200px" alt="" />
+        <div class="portfolio-desc align-center">
+          <div class="folio-info">
+            <h5 class="languageFr"><a href="./img/gallerie/gallery5.png">Simulation d'un ilôt avec cour intérieure.</a></h5>
+            <h5 class="languageEn"><a href="./img/gallerie/gallery5.png">Simulation with inner courtyard.</a></h5>
+            <a href="./img/gallerie/gallery5.png" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+          </div>
+        </div>
+      </div>
+</article>
+
+<article class="col-md-4 isotopeItem images">
+      <div class="portfolio-item">
+        <img src="./img/gallerie/gallery6.png" style="max-height:200px" alt="" />
+        <div class="portfolio-desc align-center">
+          <div class="folio-info">
+            <h5 class="languageFr"><a href="./img/gallerie/gallery6.png">Vue 2D de formes bâties simulées avec les même paramètres de génération sur un ensemble de quartiers (seules les règles diffèrent).</a></h5>
+            <h5 class="languageEn"><a href="./img/gallerie/gallery6.png">2D view of building shapes generated on several districts with a same generator parametrization (only urban regulation differs).</a></h5>
+            <a href="./img/gallerie/gallery6.png" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+          </div>
+        </div>
+      </div>
+</article>
+
+<article class="col-md-4 isotopeItem images">
+      <div class="portfolio-item">
+        <img src="./img/gallerie/gallery7.png" style="max-height:200px" alt="" />
+        <div class="portfolio-desc align-center">
+          <div class="folio-info">
+            <h5 class="languageFr"><a href="./img/gallerie/gallery7.png">Influence de la variation de paramètres de règles sur les formes bâties simulées.</a></h5>
+            <h5 class="languageEn"><a href="./img/gallerie/gallery7.png">Influence of the variation of rules parameters on simulated urban shapes.</a></h5>
+            <a href="./img/gallerie/gallery7.png" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+          </div>
+        </div>
+      </div>
+</article>
+
+
+<article class="col-md-4 isotopeItem images">
+      <div class="portfolio-item">
+        <img src="./img/gallerie/gallery8.png" style="max-height:200px" alt="" />
+        <div class="portfolio-desc align-center">
+          <div class="folio-info">
+            <h5 class="languageFr"><a href="https://youtu.be/kLP-1g_uAVo?t=252">Vidéo présentent les résultats de simulation de SimPLU3D.</a></h5>
+            <h5 class="languageEn"><a href="https://youtu.be/kLP-1g_uAVo?t=252">Video presenting SimPLU3D simulation results.</a></h5>
+            <a href="https://youtu.be/kLP-1g_uAVo?t=252" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+          </div>
+        </div>
+      </div>
+</article>
+
+<article class="col-md-4 isotopeItem images">
+      <div class="portfolio-item">
+        <img src="./img/gallerie/gallery9.png" style="max-height:200px" alt="" />
+        <div class="portfolio-desc align-center">
+          <div class="folio-info">
+            <h5 class="languageFr"><a href="https://youtu.be/kLP-1g_uAVo?t=252">Démonstrateur SimPLU3D-OpenMOLE pour l'exploration de l'influence des valeurs de règles.</a></h5>
+            <h5 class="languageEn"><a href="https://youtu.be/kLP-1g_uAVo?t=252">SimPLU3D-OpenMOLE demonstrator to explore the influence of rules values.</a></h5>
+            <a href="https://youtu.be/kLP-1g_uAVo?t=252" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+          </div>
+        </div>
+      </div>
+</article>
+
+
+</div>
+      </div>
+      </div>
   </section>
 
   <!-- section remerciement -->
@@ -385,7 +568,24 @@
         </div>
       </div>
       <div class="row">
-        Financeurs et contributeurs
+        <div class="col">
+          <div class="col-md-10">
+            <h3>Contributeurs</h3>
+            <p>
+              <ul>
+                <li><a href="https://mbrasebin.github.io"> Mickaël Brasebin</a> : chercheur LASTIG - IGN ; </li>
+                <li><a href="http://recherche.ign.fr/labos/cogit/cv.php?nom=Perret">Julien Perret</a> : chercheur LASTIG - IGN ; </li>
+                <li><a href="https://github.com/mborne">Mickaël Borne</a> : développeur SAI - IGN ; </li>
+                <li><a href="http://recherche.ign.fr/labos/cogit/cv.php?nom=Chapron">Paul Chapron</a> : chercheur LASTIG - IGN ; </li>
+                <li><a href="http://recherche.ign.fr/labos/cogit/cv.php?nom=Lokhat">Imran Lokhat</a> : développeur LASTIG - IGN ; </li>
+                <li><a href="http://www.maxime-colomb.eu/">Maxime Colomb</a> : doctorant LASTIG - IGN. </li>
+              </ul>
+            </p>
+            <h3>Financeurs</h3>
+            <p> SimPLU3D est un projet développé par des chercheurs et ingénieurs du laboratoire LASTIG et financé majoritairement par l'Institut National de l'Information Géographique et Forestière. Le projet a également été financé par le fond FUI du projet
+              TerraMagna et la région Ile-de-France à travers le projet FEDER e-PLU.</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
