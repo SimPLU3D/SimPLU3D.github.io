@@ -18,6 +18,11 @@
 margin-left: 5px;
 }
 
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
 
 
 
