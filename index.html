@@ -100,9 +100,9 @@
               <p><strong><a class="highlightorange" href="https://github.com/SimPLU3D/">SimPLU3D est un ensemble de bibliothèques Java Open-Source</a> qui permet de simuler des formes bâties 3D à partir de contraintes morphologiques  en optimisant une fonction numérique. Ces codes peuvent être utilisés pour questionner le rapport entre des contraintes morphologiques (par exemple, issues de réglementations locales d'urbanisme) et les formes produites à l'échelle du quartier ou de l'agglomération. L'approche de SimPLU3D est générique dans le sens où il est possible de définir ses propres contraintes, fonctions d'optimisation ou types de formes.
       <br />  Cette bibliothèque a notamment été utilisée pour modéliser des formes bâties à partir de contraintes issues de Plans Locaux d'Urbanisme (PLU) et permet de répondre à ce type de questions :
       <ul>
-        <li>  Quelle est la quantité maximale de logements que l'on peut bâtir sur une parcelle ?</li>
-        <li>  Comment est-ce que la forme de mon quartier va évoluer si l'on change un PLU ?</li>
-        <li>   Est-ce que des bâtiments produisant une ombre trop importante sur les parcelles voisines risquent d'être construits ?</li>
+        <li>Quelle est la quantité maximale de logements que l'on peut bâtir sur une parcelle ?</li>
+        <li>Comment la forme de mon quartier va évoluer si l'on modifie un PLU ?</li>
+        <li>Est-ce que des bâtiments produisant une ombre trop importante sur les parcelles voisines risquent d'être construits ?</li>
       </ul>
         L'ensemble de ces bibliothèques est disponible dans l'<a class="highlightorange" href="https://github.com/SimPLU3D/simplu3D">organisation GitHub SimPLU3D</a> et est développé et maintenu par le laboratoire <a class="highlightorange" href="http://recherche.ign.fr/">LASTIG</a> de l'<a class="highlightorange" href="http://www.ign.fr/">Institut National de l'Information Géographique et Forestière</a>.</strong></p>
             </div>
@@ -238,7 +238,7 @@
                   nécessaire pour effectuer des simulations ; </li>
                 <li> <span class="highlight">une approche générique des contraintes et des fonctions d'optimisation utilisées :</span> grâce à la bibliothèque d'optimisation <a href="https://github.com/IGNF/librjmcmc4j">librjmcmc4j</a>, il est possible de définir
                   n'importe quel type de fonction d'optimisation et la génération de formes bâties s'appuie sur n'importe quelle règle morphologique du moment qu'il est possible de vérifier son respect ;</li>
-                <li> <span class="highlight">le suivi en temps réel de la simulation</span>, à travers une série de visiteurs qui produisent des informations en continu ; </li>
+                <li> <span class="highlight">le suivi en temps réel de la simulation</span>, à travers une série de moniteurs qui produisent des informations en continu ; </li>
                 <li> <span class="highlight">la paramétrisation des types de géométries </span> utilisées pour produire les formes bâties afin d'adapter les résultats à différents contextes d'utilisation.</li>
               </ul>
             </p>
@@ -290,7 +290,7 @@
             <p> Les bibliothèques de SimPLU3D ont été utilisées dans différents contextes opérationnels et de recherche :
               <ul>
                 <li><strong class="highlight">Simulation de la constructibilité en Ile-de-France</strong> (2015 - 2019) : il s'agit d'un projet en collaboration avec l'<a href="https://www.iau-idf.fr/">IAUIDF</a> et la <a href="http://www.driea.ile-de-france.developpement-durable.gouv.fr/">DRIEA</a>                  visant à évaluer le potentiel de l'approche SimPLU3D pour déterminer la constructibilité à l'échelle de la parcelle sur l'ensemble de l'IDF. (Pour en savoir plus, (Brasebin et al, 2017), <a href="https://github.com/SimPLU3D/simplu3D-iauidf">Code</a>) ;</li>
-                <li><strong class="highlight">Démonstrateur pour l'aide à la conception de PLU</strong> : ce projet en partenariat avec l'<a href="https://iscpif.fr/">ISC-PIF</a> vise à évaluer ce qu'il est possible à l'échelle d'un îlot en faisant varier
+                <li><strong class="highlight">Démonstrateur pour l'aide à la conception de PLU</strong> : ce projet en partenariat avec l'<a href="https://iscpif.fr/">ISC-PIF</a> vise à évaluer les formes bâties possibles à l'échelle d'un îlot en faisant varier
                   les paramètres du PLU (Pour en savoir plus, voir (Brasebin et al, 2017), <a href="https://github.com/SimPLU3D/simplu3D-OpenMOLE">Code</a>, <a href="https://simplu.openmole.org/">Démonstrateur</a>) ;</li>
                 <li><strong class="highlight">PLU++ : vers une concertation plus participative et plus efficace de PLU</strong> (2015 - 2017) : dans le cadre de ce projet de recherche en collaboration avec l'<a href="https://www.eivp-paris.fr/">EIVP</a>,
                   une réflexion a été menée sur la défintion des types de représentation et des interactions à utiliser dans un contexte participatif. (Pour en savoir plus, <a href="https://ignf.github.io/PLU2PLUS/">site Internet du projet</a>) ;</li>
@@ -587,8 +587,7 @@
 
             <p class="languageFr">Vous pouvez contacter <span class="highlight">Julien Perret</span> ou <span class="highlight">Mickaël Brasebin</span> ({prénom.nom} (AT) {gmail} (POINT) {com}) pour discuter de l'utilisation de SimPLU3D. Pour signaler un bug n'hésitez pas
               à poster une issue sur le ou les projets concernés.</p>
-            <p class="languageFr">Les bibliothèques de SimPLU3D sont en licence CeCILL et GPL-3. Si vous utilisez ces outils pour un article scientifique vous êtes priés de citer un des articles mentionnés dans cette page. De plus nous sommes preneurs de tous retours ou de
-              toutes contributions pour améliorer ces outils.</p>
+            <p class="languageFr">Les bibliothèques de SimPLU3D sont en licence CeCILL et GPL-3. Si vous utilisez ces outils pour un article scientifique vous êtes priés de citer un des articles mentionnés dans cette page. De plus nous sommes preneurs de tout retour ou de toute contribution pour améliorer ces outils.</p>
 
             <p class="languageEn">You can contact <span class="highlight">Julien Perret</span> or <span class="highlight">Mickaël Brasebin</span> ({surname.name} (AT) {gmail} (POINT) {com}) to discuss about the use of SimPLU3D. To signal a bug, do not hesitate to open an issue
               in the concerned project.</p>
