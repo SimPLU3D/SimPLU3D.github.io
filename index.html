@@ -112,15 +112,14 @@
 
             <div class="languageEn">
               <p><strong><a class="highlightorange" href="https://github.com/SimPLU3D/">SimPLU3D is a set of Java Open-Source libraries</a> that allows the simulation of 3D built configurations that optimize a numerical utility function under the respect of morphological constraints.
-          These libraries are used to question the relations between morphological constraints (that may appear in local urban regulation) and the produced urban fabric at the scale of a district or a whole city.
-          The SimPLU3D approach is generic as it is possible to use customized constraints, utility functions or type of geometric shapes.
-  <br />  When applied on urban local regulation, this library is notably used to answer to the following questions :
+                These libraries are used to question the relations between morphological constraints (that may appear in local urban regulation) and the produced urban fabric at the scale of a district or a whole city. The SimPLU3D approach is generic, as it is possible to use customized constraints, utility functions or type of geometric shapes.
+      <br />   When applied on local urban  regulation, this library is notably used to answer to the following questions :
   <ul>
     <li>How many dwellings may be built on a parcel ?</li>
-    <li>How the urban fabric of a district may evolve if the local urban regulation is changed ?</li>
-    <li>May the future buildings cause too important shadowing on the neighbourhood parcels ?</li>
+    <li>How may the urban fabric of a district evolve if the local urban regulation is changed ?</li>
+    <li> Could the future buildings cause too important shadowing on the neighborhood parcels ?</li>
   </ul>
-  All the necessary libraries are available in the <a class="highlightorange" href="https://github.com/SimPLU3D/simplu3D">SimPLU3D GitHub organization</a> and are developped and maintained by the <a class="highlightorange" href="http://recherche.ign.fr/">LASTIG</a> laboratory from the <a class="highlightorange" href="http://www.ign.fr/">French IGN</a>.</strong></p>
+  All the necessary libraries are available in the <a class="highlightorange" href="https://github.com/SimPLU3D/simplu3D">SimPLU3D GitHub organization</a> and are developed and maintained by the <a class="highlightorange" href="http://recherche.ign.fr/">LASTIG</a> laboratory from the <a class="highlightorange" href="http://www.ign.fr/">French IGN</a>.</strong></p>
             </div>
 
 
@@ -214,11 +213,11 @@
             <p>
               Simulating with SimPLU3D requires three main inputs :
               <ul>
-                <li> <span class="highlight">a geographic environment </span> that contains all the necessary geographical objects&nbsp;; </li>
-                <li> the definition of <span class="highlight">a shape generator</span>, that determines both the optimization strategy and the geometric shapes of simulated built configurations&nbsp;; </li>
-                <li> the application of <span class="highlight">morphological constraints</span>, that are defined with the SimPLU3D model concepts and constraint the geometry of resulting configurations.</li>
+                <li> <span class="highlight">a geographic environment </span>containing all the necessary geographical objects&nbsp;; </li>
+                <li> the definition of <span class="highlight">a shape generator</span>, that determines both the optimization strategy and the geometric shapes forming simulated built configurations&nbsp;; </li>
+                <li> the application of <span class="highlight">morphological constraints</span>, that are defined with the SimPLU3D model concepts and according to the geographic environment elements, to constraint resulting configurations geometries.</li>
               </ul>
-              The output is a built configuration that respects the morphological constraints, that optimization a utility function and is composed by several geometries.
+              Simulation output is a built configuration respecting the given morphological constraints, optimizing the given utility function and is composed of several geometrical objects defined in the shape generator.
             </p>
           </div>
         </div>
@@ -249,11 +248,10 @@
             <p>
               The SimPLU3D libraries embed different functions :
               <ul>
-                <li> <span class="highlight">an integration process dedicated to SimPLU3D model</span> : an already implemented integration process allows to simply instanciate the SimPLU3D geographic model ; </li>
-                <li> <span class="highlight">a generic formalism to represent constraints and optimization functions :</span> thanks to <a href="https://github.com/IGNF/librjmcmc4j">librjmcmc4j</a> optimization library, it is possible to define different types of optimization
-                  function and every constraints that can be produce by using geographic model concepts may be used ;</li>
-                <li> <span class="highlight">real-time monitoring of a simulation</span>, with the visitors, continuous information is provided during a simulation ; </li>
-                <li> <span class="highlight">parameterization of geometries </span> is possible to produce built configurations in order to adapted the results to different contexts of urbanization.</li>
+                <li> <span class="highlight">an integration process dedicated to SimPLU3D model</span> :  an already implemented integration process allows to instantiate the SimPLU3D geographic environment model, from the sole parcels layer, to more complex environment elements (e.g. neighboring buildings, parcel side type, ...)  ;</li>
+                <li> <span class="highlight">a generic formalism to represent constraints and optimization functions :</span> thanks to <a href="https://github.com/IGNF/librjmcmc4j">librjmcmc4j</a>  optimization library,  any type of optimization function can be used and every morphological constraints can be used provided that it ;</li>
+                <li> <span class="highlight">real-time monitoring of a simulation</span>, thanks to graphical rendering visitors,  providing continuous information during a simulation ;</li>
+                <li> <span class="highlight">parameterization of geometric shapes</span> constituting the built configurations, in order to adapt the results to different contexts of urbanization.</li>
               </ul>
             </p>
           </div>
@@ -308,18 +306,17 @@
           <div class="languageEn">
             <p>SimPLU3D libraries are used for operationnal and research applications :
               <ul>
-                <li><strong class="highlight">Constructability simulation on Ile-de-France area</strong> (2015 - 2019) : with the collaboration of the <a href="https://www.iau-idf.fr/">IAUIDF</a> and the <a href="http://www.driea.ile-de-france.developpement-durable.gouv.fr/">DRIEA</a>,
-                  the aim is to assess the constructability potential with SimPLU3D for each parcel of IDF cities. (More about this project, (Brasebin et al, 2017), <a href="https://github.com/SimPLU3D/simplu3D-iauidf">Code</a>) ;</li>
-                <li><strong class="highlight">Prototype to assist the conception of local urban regulation</strong> : with the collaboration of the <a href="https://iscpif.fr/">ISC-PIF</a>, this prototype aims at assessing what is it possible to build at
-                  the scale of a urban block according to the different values of regulation parameters (More about this project, (Brasebin et al, 2017), <a href="https://github.com/SimPLU3D/simplu3D-OpenMOLE">Code</a>, <a href="https://simplu.openmole.org/">Online prototype</a>)
-                  ;</li>
-                <li><strong class="highlight">PLU++ : towards more efficient and more paraticipative local urban plans</strong> (2015 - 2017) : this research project in collaboration with <a href="https://www.eivp-paris.fr/">EIVP</a> was a research collaboration
-                  to define adapted 3D representations and interactions with simulations results in the context of urban public participation. (More about this project, <a href="https://ignf.github.io/PLU2PLUS/">Website of the PLU++ project</a>) ;</li>
-                <li><strong class="highlight">SimPLU3D prototype to ease building permits instruction</strong> : this prototype was developped to show how the SimPLU3D rule checker can ease building permit instruction by automatically checking urban regulation
+                <li><strong class="highlight">Constructibility simulation on Île-de-France region</strong> (2015 - 2019) : with the collaboration of the <a href="https://www.iau-idf.fr/">IAUIDF</a> and the <a href="http://www.driea.ile-de-france.developpement-durable.gouv.fr/">DRIEA</a>,
+                   the aim is to assess the constructibility potential with SimPLU3D for each parcel of Île-de-France cities (More about this project, (Brasebin et al, 2017), <a href="https://github.com/SimPLU3D/simplu3D-iauidf">Code</a>) ;</li>
+                <li><strong class="highlight">Prototype to assist the conception of local urban regulation</strong> : with the collaboration of the <a href="https://iscpif.fr/">ISC-PIF</a>, this prototype aims at assessing built configurations at the scale of a city block,
+                  according to the different values of regulation parameters (More about this project, (Brasebin et al, 2017), <a href="https://github.com/SimPLU3D/simplu3D-OpenMOLE">Code</a>, <a href="https://simplu.openmole.org/">Online prototype</a>) ;</li>
+                <li><strong class="highlight">PLU++ : towards more efficient and more participatory local urban plans  consultation meetings</strong> (2015 - 2017) : this research project in collaboration with EIVP aims to define adapted 3D representations and interactions with simulations results in
+                  the context of urban public participatory consultations (More about this project, <a href="https://ignf.github.io/PLU2PLUS/">Website of the PLU++ project</a>) ;</li>
+                <li><strong class="highlight">SimPLU3D prototype to ease building permits instruction</strong> : this prototype was developed to show how the SimPLU3D rule checker can ease building permit instruction by automatically checking urban regulation
                   (<a href="https://demo-simplu3d.ign.fr/">Website of the prototype</a>).</li>
-                <li><strong class="highlight">ArtiScales</strong> : is a coupling between SimPLU3D and <a href="https://sourcesup.renater.fr/mupcity/en.html">Mup-CITY</a> models to produce realistic residential development from the scale of a parcel to the
-                  scale of a whole region. This work is realized in the context of <a href="http://www.maxime-colomb.eu/">Maxime Colomb</a> PHD thesis. (<a href="https://github.com/ArtiScales">ArtiScales project</a>) ;</li>
-                <li><strong class="highlight">DECODURBA</strong> is a proposition based on SimPLU3D to assist the citizen in the construction of individual house. It receives a price during the Hackhurba hackhathon organised by the French Ministery for the
+                <li><strong class="highlight">ArtiScales</strong> : is a coupling between SimPLU3D and <a href="https://sourcesup.renater.fr/mupcity/en.html">Mup-CITY</a> models to produce realistic residential development from the scale of a parcel to the scale of a whole region.
+                  This work is realized in the context of <a href="http://www.maxime-colomb.eu/">Maxime Colomb</a> PHD thesis. (<a href="https://github.com/ArtiScales">ArtiScales project</a>) ;</li>
+                <li><strong class="highlight">DECODURBA</strong>  is a proposition based on SimPLU3D to assist citizens in the construction of individual house. It receives a price during the Hackhurba hackhathon organised by the French Ministery for the
                   Ecological and Inclusive Transition (<a href="https://www.etalab.gouv.fr/event/hackurba">Hackhathon website</a>).</li>
               </ul>
             </p>
@@ -365,10 +362,10 @@
 
           <div class="languageEn">
             <p>
-              SimPLU3D libraries are coded in JAVA (JDK 8 or higher is required) and built with Maven. They are regularly deployed on IGN Maven repository (<a href="https://forge-cogit.ign.fr/nexus/#welcome">https://forge-cogit.ign.fr/nexus/#welcome</a>).
-              The install of SimPLU3D only requires to add the dependency and the repository to a Java project:</p>
+              SimPLU3D libraries are written in JAVA (JDK 8 or higher is required) and built with Maven. They are regularly deployed on IGN Maven repository (<a href="https://forge-cogit.ign.fr/nexus/#welcome">https://forge-cogit.ign.fr/nexus/#welcome</a>).
+              The install of SimPLU3D only requires to add the dependency and the repository to a Java project :</p>
             <li>
-              <ul>Add SimPLU3D dependency to your pom.xml between the <strong>dependencies</strong> tags and check the current SimPLU3D version.</ul>
+              <ul>Add SimPLU3D dependency to your pom.xml file between the <strong>dependencies</strong> tags and check the current SimPLU3D version.</ul>
             </li>
           </div>
 
@@ -380,7 +377,7 @@
           </code></pre>
           <li>
             <ul class="languageFr">Ajouter les dépôts sur lesquels est déployé SimPLU3D et les bibliothèques dans le pom.xml dans les balises <strong>repositories</strong></ul>
-            <ul class="languageEn">Add the IGN aven repository int the pom.xml between <strong>repositories</strong> tags</ul>
+            <ul class="languageEn">Add the IGN maven repository into the pom.xml file between <strong>repositories</strong> tags</ul>
 
           </li>
           <pre><code class="XML hljs"><span class="hljs-tag">&lt;<span class="hljs-name">repository</span>&gt;</span>
@@ -424,7 +421,7 @@
             <p><img alt="#f03c15" src="https://placehold.it/15/f03c15/000000?text=+"> <strong>Warning</strong>: the compilation may fail due to issues related to the validation of ssh certificate IGN server. To fix this, two solutions are possible :</p>
             <ul>
               <li>
-                <p>Locally install the certificat as described in this page : <a href="https://maven.apache.org/guides/mini/guide-repository-ssl.html">https://maven.apache.org/guides/mini/guide-repository-ssl.html</a></p>
+                <p>Locally install the certificate as described in this page : <a href="https://maven.apache.org/guides/mini/guide-repository-ssl.html">https://maven.apache.org/guides/mini/guide-repository-ssl.html</a></p>
               </li>
               <li>
                 <p>Make a non secure install of the project with the following command line : <strong>mvn clean install -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true</strong></p>
@@ -434,12 +431,12 @@
 
 
           <h3 class="languageFr">Première simulation</h3>
-          <h3 class="languageEn">PremiFirstère simulation</h3>
+          <h3 class="languageEn">First simulation</h3>
 
 
 
           <p class="languageFr">Pour lancer une première simulation déjà prête à l'emploi, il suffit d'exécuter le code ci-dessous provenant de la classe <a href="https://github.com/SimPLU3D/simplu3D-tutorial/blob/master/src/main/java/fr/ign/simplu3d/firstSimulation/BasicSimulator.java">BasicSimulator</a>            en clonant le projet <a href="https://github.com/SimPLU3D/simplu3D-tutorial">SimPLU3D-tutorial</a> qui contient des exemples de code. </p>
-          <p class="languageEn">Running a first pre-prepared simulation, only require to execute the following code available in this class : <a href="https://github.com/SimPLU3D/simplu3D-tutorial/blob/master/src/main/java/fr/ign/simplu3d/firstSimulation/BasicSimulator.java">BasicSimulator</a>            by cloning the <a href="https://github.com/SimPLU3D/simplu3D-tutorial">SimPLU3D-tutorial</a> project that contains some code samples. </p>
+          <p class="languageEn">Running a first ready-to-use simulation only requires to execute the following code available in the <a href="https://github.com/SimPLU3D/simplu3D-tutorial/blob/master/src/main/java/fr/ign/simplu3d/firstSimulation/BasicSimulator.java">BasicSimulator</a> class by cloning the <a href="https://github.com/SimPLU3D/simplu3D-tutorial">SimPLU3D-tutorial</a> project. It also contains some other English-commented code samples. </p>
 
           <pre>
           <code class="Java hljs"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> <span class="hljs-keyword">throws</span> Exception </span>{
@@ -517,15 +514,12 @@
 
             <p class="languageEn">
               A French tutorial is available online <a href="https://simplu3d.github.io/simplu3D-tutorial">(https://simplu3d.github.io/simplu3D-tutorial)</a>, it explains how to use SimPLU3D. This documentation is illustrated by English-commented codes
-              (hosted on <a href="https://github.com/SimPLU3D/simplu3D-tutorial/">SimPLU3D-tutorial</a> GitHub project). They illustrate the different possibilities to custom the approach.
-
+              (hosted on <a href="https://github.com/SimPLU3D/simplu3D-tutorial/">SimPLU3D-tutorial</a> GitHub project). They illustrate the different possibilities to customize the approach.
             </p>
 
             <h3>Publications</h3>
 
-
             <!--- Publication français-->
-
             <div class="languageFr">
               <p>Quelques publications permettent de présenter les différents aspects de l'approche :</p>
               <ul>
